@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Student Name : </label>
+        <input type="text" name="name" id="name">
+        <br> <br>
+        <label for="usn">Enter your USN : </label>
+        <input type="text" name="usn" id="usn">
+        <br> <br>
+        <label for="dob">Enter your date of birth : </label>
+        <input type="date" name="dob" id="dob">
+        <br> <br>
+        <label for="gender">Enter your Gender : </label>
+        <input type="radio" name="gender" id="gender-female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="gender-male" value="male">
+        <label for="male">Male</label>
+        <br> <br>
+        <label for="mail">Enter your Mail : </label>
+        <input type="email" name="mail" id="mail">
+        <br> <br>
+        <label for="password">Enter your password : </label>
+        <input type="password" name="password" id="password">
+        <br> <br>
+        <label for="dept">Select your department : </label>
+        <select name="dept" id="dept">
+            <option>CSE</option>
+            <option>AIML</option>
+            <option>ECE</option>
+            <option>CIVIL</option>
+            <option>MECH</option>
+            <option>DS</option>
+        </select>
+        <br> <br>
+        <label for="course">Select your courses : </label>
+        <input type="checkbox" name="course" id="course1" value="C programming">
+        <label for="course1">C programming</label>
+        <input type="checkbox" name="course" id="course2" value="Java programming">
+        <label for="course2">Java programming</label>
+        <input type="checkbox" name="course" id="course3" value="Generative AI">
+        <label for="course3">Generative AI</label>
+        <input type="checkbox" name="course" id="course4" value="Full Stack development">
+        <label for="course4">Full Stack development</label>
+        <br> <br>
+        <textarea name="feedback" rows="4" cols="30" placeholder="Enter your Feedback"></textarea>
+        <br> <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
