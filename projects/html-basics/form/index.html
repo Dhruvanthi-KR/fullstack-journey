@@ -1,31 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Registration Form</title>
+    <title>Student Registration</title>
 </head>
 <body>
-    <h1>Student Registration Form</h1>
-    <form action="#" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-
-        <label for="dob">Date of Birth:</label><br>
-        <input type="date" id="dob" name="dob" required><br>
-
-        <label for="course">Course:</label><br>
-        <select id="course" name="course" required>
-            <option value="">Select a course</option>
-            <option value="web-development">Web Development</option>
-            <option value="data-science">Data Science</option>
-            <option value="graphic-design">Graphic Design</option>
-        </select><br><br>
-
-        <button type="submit">Register</button>
+    <h2>Student Registration Form</h2>
+    <form>
+        <label for="name">Student Name : </label>
+        <input type="text" name="name" id="name">
+        <br> <br>
+        <label for="usn">Enter your USN : </label>
+        <input type="text" name="usn" id="usn">
+        <br> <br>
+        <label for="dob">Enter your date of birth : </label>
+        <input type="date" name="dob" id="dob">
+        <br> <br>
+        <label for="gender">Enter your Gender : </label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <br> <br>
+        <label for="mail">Enter your Mail : </label>
+        <input type="email" name="mail" id="mail">
+        <br> <br>
+        <label for="pass">Enter your password : </label>
+        <input type="password" name="password" id="password">
+        <br> <br>
+        <label for="dept">Select your department : </label>
+        <select name="dept">
+            <option>CSE</option>
+            <option>AIML</option>
+            <option>ECE</option>
+            <option>CIVIL</option>
+            <option>MECH</option>
+            <option>DS</option>
+        </select>
+        <br> <br>
+        <label for="course">Select your courses : </label>
+        <input type="checkbox" name="course" id="course1" value="C programming">
+        <label for="course1">C programming</label>
+        <input type="checkbox" name="course" id="course2" value="Java programming">
+        <label for="course2">Java programming</label>
+        <input type="checkbox" name="course" id="course3" value="Generative AI">
+        <label for="course3">Generative AI</label>
+        <input type="checkbox" name="course" id="course4" value="Full Stack development">
+        <label for="course4">Full Stack development</label>
+        <br> <br>
+        <textarea rows="4" cols="30" placeholder="Enter your Feedback"></textarea>
+        <br> <br>
+        <button>Submit</button>
     </form>
 </body>
 </html>
