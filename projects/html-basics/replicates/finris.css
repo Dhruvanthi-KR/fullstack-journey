@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100svw;
+    height: 100svh;
+    background-color: #14452E;
+    background: linear-gradient(to bottom left,#1D1A4E 20%, #14452E );
+}
+.header1{
+    width: 100%;
+    height: 10%;
+}
+.header2{
+    width: 100%;
+    height: 15%;
+}
+.header1{
+    display: flex;
+}
+.header2{
+    display: flex;
+    position: relative;
+}
+.body{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+.bodyLeft,.bodyRight{
+    width: 50%;
+    height: 100%;
+}
+.bodyLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyRight{
+    background: url(./images/BGremove.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    position: relative;
+}
+.container{
+    width: 80%;
+    height: 60%;
+    position: relative;
+}
+.head{
+    font-size: 44px;
+    width: 100%;
+    height: 60%;
+}
+.firstline{
+    color: white;
+}
+.secline{
+    color: #FEB72B;
+}
+.arrow{
+    color: #FEB72B;
+    margin-right: 5px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 30%;
+    height: 20%;
+    border: #6232F8 solid 1px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 45%;
+    right: 0;
+}
+.data{
+    width: 100%;
+    height: 40%;
+}
+.logo{
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.diamond{
+    width: 20px;
+    height: 20px;
+    background: #FEB72B;
+    transform: rotate(45deg);
+}
+.features{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    width: 15.3%;
+    height: 70%;
+    border: #FEB72B solid 1.5px;
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#h1,#a1,#s1,#sh1,#b1,#c1{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+.phone i, .email i, .location i {
+    color: #FEB72B;
+  margin-right: 5px;
+}
+.contactUs{
+    position: absolute;
+    right: 20px;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.iconBtns{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    color: white;
+}
+.cont{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    background-color: #6232F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.headline{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+}
+.details{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+}
+.welcome{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D1A4E;
+}
+.icons{
+    width: 25%;
+    height: 100%;
+    background-color: #1D1A4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apps{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #6232F8 solid 1px;
+    border-radius: 20px;
+}
