@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My Web Dev Journey</title>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Web Development Journey</title>
+    <meta name="description" content="A collection of my HTML and CSS practice projects.">
+    <link rel="icon" type="image/png" href="./PUBLIC/favicon.png">
     <style>
         body {
             font-family: Arial, sans-serif;
             background-image: url(./PUBLIC/mainBG.jpg);
             background-size: cover;
-            
             margin: 0;
             padding: 40px;
         }
@@ -16,9 +20,10 @@
         .container {
             max-width: 600px;
             margin: auto;
-            background: white;
+            background: rgba(255, 255, 255, 0.75);
             padding: 25px;
             border-radius: 8px;
+            backdrop-filter: blur(4px);
         }
 
         h1 {
@@ -28,7 +33,7 @@
 
         p {
             text-align: center;
-            color: gray;
+            color: #555;
         }
 
         h2 {
@@ -45,30 +50,63 @@
 
         a {
             text-decoration: none;
-            color: #2563eb;
+            color: #1d4ed8;
         }
 
         a:hover {
+            cursor: pointer;
+            text-decoration: none;
+            outline: 2px solid #2563eb;
+            outline-offset: 2px;
+        }
+
+        a:focus {
+            cursor: pointer;
             text-decoration: underline;
+            outline: 2px solid #2563eb;
+            outline-offset: 2px;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="container">
-        <h1>My Web Development Journey</h1>
-        <p>Practice tasks using HTML and CSS</p>
+    <main class="container">
+        <section>
+            <h1>My Web Development Journey</h1>
 
-        <h2>Tasks</h2>
+            <p>Practice tasks using HTML and CSS</p>
 
-        <ul>
-            <li><a href="./projects/html-basics/form/index.html" target="_blank">Student Registration Form</a></li>
-            <li><a href="./projects/html-basics/websites/index.html" target="_blank">Useful Websites</a></li>
-            <li><a href="./projects/html-basics/dashboard-ui/index.html" target="_blank">Dashboard UI</a></li>
-            <li><a href="./projects/html-basics/replicates/finris.html" target="_blank">Finris Replication</a></li>
-        </ul>
-    </div>
+            <h2>Tasks</h2>
+
+            <ul>
+                <li>
+                    <a href="./projects/html-basics/form/index.html" target="_blank" rel="noopener noreferrer">
+                        Open Student Registration Form Project
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./projects/html-basics/websites/index.html" target="_blank" rel="noopener noreferrer">
+                        Open Useful Websites Project
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./projects/html-basics/dashboard-ui/index.html" target="_blank" rel="noopener noreferrer">
+                        Open Dashboard UI Project
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./projects/html-basics/replicates/finris.html" target="_blank" rel="noopener noreferrer">
+                        Open Finris Replication Project
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
 
 </body>
+
 </html>
